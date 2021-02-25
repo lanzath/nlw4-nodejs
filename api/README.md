@@ -4,7 +4,7 @@ Semana [NLW4](https://nextlevelweek.com/inscricao/4) de conteúdo sobre Node.js,
 
 Créditos: [Rocketseat](https://https://rocketseat.com.br/)
 
-#### Typescript
+#### [Typescript](https://www.typescriptlang.org/)
 Para utilização do typescript no projeto junto ao `ts-node-dev`, o mesmo deve ser instalado como modo de desenvolvimento, inicializado e devidamente configurado.
 Abaixo os comandos utilizados no projeto.
 
@@ -35,7 +35,7 @@ Configurações utilizadas:
 },
 ```
 
-#### TypeORM
+#### [TypeORM](https://typeorm.io/#/)
 O CLI do typeorm foi configurado nos scripts do `package.json`.
 ```json
 "scripts": {
@@ -54,7 +54,7 @@ Rodar migrations:
 Desfaz a última migration:
 `yarn typeorm migration:revert`
 
-#### Testes Automatizados.
+#### [Jest](https://jestjs.io/) - Testes automatizados.
 1. Testes unitários:
 > Testes para testar uma funcionalidade/feature/service de um código, utilizado em *TDD*.
 
@@ -87,3 +87,11 @@ Configurações no `script` em `package.json`
 
 Rodando os testes:
 `yarn test`
+
+### [Nodemailer](https://nodemailer.com/about/) e [Ethereal](https://ethereal.email/) - Envio de emails
+Instalação:
+`yarn add nodemailer`
+
+### [Handlebars](https://handlebarsjs.com/)
+Instalação:
+`yarn add handlebars`

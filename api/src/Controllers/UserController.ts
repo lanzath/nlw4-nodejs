@@ -2,16 +2,14 @@ import { Request, Response } from 'express';
 import { getCustomRepository } from 'typeorm';
 import { UsersRepository } from '../Repositories/UsersRepository';
 
-class UserController
-{
+class UserController {
   /**
    * Create a new record in database.
    *
    * @param request
    * @param response
    */
-  async create(request: Request, response: Response)
-  {
+  async create(request: Request, response: Response) {
     const { name, email } = request.body;
 
     const usersRepository = getCustomRepository(UsersRepository);

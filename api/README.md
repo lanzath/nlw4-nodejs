@@ -1,6 +1,12 @@
+<p align="center">
+  <img width="240" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png">
+</p>
+
 # <p align="center"> Next Level Week #04 - Rocketseat </p>
 
 Semana [NLW4](https://nextlevelweek.com/inscricao/4) de conteúdo sobre Node.js, express e typescript.
+
+O projeto consiste no back-end de um sistema de envio de Surveys para pesquisa de acordo com a nota de um usuário cadastrado e cálculo de NPS (Net Promoter Score).
 
 Créditos: [Rocketseat](https://https://rocketseat.com.br/)
 
@@ -74,7 +80,8 @@ Para auxiliar com `requests` na criação dos testes foi instalado o `supertest`
 `yarn add supertest @types/supertest -D`
 
 Inicializando configurações:
-`yarn jest --init`
+`yarn jest --init -i`
+A flag -i garante que um teste será executado após o outro.
 
 Também foi necessário a instalação do `cross-env` para configuração de ambiente no windows, para que os testes sejam feitos em ambiente de teste.
 `yarn add cross-env -D`
@@ -95,3 +102,7 @@ Instalação:
 ### [Handlebars](https://handlebarsjs.com/)
 Instalação:
 `yarn add handlebars`
+
+### [YUP](https://github.com/jquense/yup) - Validações
+Instalação:
+`yarn add yup`

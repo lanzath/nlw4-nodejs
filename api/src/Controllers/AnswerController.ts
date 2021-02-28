@@ -5,7 +5,12 @@ import { AppError } from '../errors/AppError';
 import { SurveysUsersRepository } from '../Repositories/SurveysUsersRepository';
 
 class AnswerController {
-  // http://localhost:333/answers/1?user=2bb92239-bf36-4d68-bbd3-0116f55cfece
+  /**
+   * Save an user's survey answer to DB.
+   *
+   * @param request
+   * @param response
+   */
   async execute(request: Request, response: Response) {
     const { value } = request.params;
     const { user } = request.query;
